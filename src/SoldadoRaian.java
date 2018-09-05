@@ -30,4 +30,9 @@ public class SoldadoRaian extends Warrior {
 
 	public void worldChanged(FieldCell oldCell, FieldCell newCell) {
 	}
+	
+	// Metodo a sobreescribir para determinar si agarro la cajita o no
+	public boolean useSpecialItem() {
+		return true;
+	}
 }
